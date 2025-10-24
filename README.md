@@ -84,9 +84,7 @@ python task2_FINAL.py
 pip install pandas numpy matplotlib seaborn openpyxl
 ```
 
-## Authors
-
-[Your Name] & [Teammate Name]
+##
 
 Master's in Data Science and Analytics
 
