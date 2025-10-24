@@ -4,7 +4,7 @@ Data Collection and Data Quality Course Project - Master's in Data Science and A
 
 ## Project Overview
 
-Analysis of GPS mobility data from 20 users collected over a three-month period (June-August 2011). The project processes 16,094 GPS points covering 97,030 kilometers across 47 trips to analyze mobility patterns and assess data quality.
+Analysis of GPS mobility data from 20 users collected over three months (June-August 2011). The project processes 16,094 GPS points covering 97,030 kilometers across 47 trips to analyze mobility patterns and assess data quality.
 
 ## Objectives
 
@@ -26,7 +26,7 @@ Analysis of GPS mobility data from 20 users collected over a three-month period 
 ### Data Processing
 1. Parse raw GPS logger files (.gsd format)
 2. Convert coordinates from degree-minute to decimal format
-3. Calculate distances using Haversine formula
+3. Calculate distances using the Haversine formula
 4. Compute speed and acceleration metrics
 5. Validate data quality across multiple dimensions
 
@@ -64,7 +64,6 @@ Analysis of GPS mobility data from 20 users collected over a three-month period 
 │   ├── gps_processed_data.csv  # Processed dataset
 │   ├── trip_summary.csv        # Trip-level statistics
 │   └── figures/                # Visualizations
-└── LAB2_REPORT_TEAM.docx       # Technical report
 ```
 
 ## Usage
